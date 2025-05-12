@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "MCP server for Better Auth",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && chmod 755 dist/index.js",
     "format": "prettier --write .",
     "lint": "eslint \"**/*.{js,ts,tsx}\" --fix"
