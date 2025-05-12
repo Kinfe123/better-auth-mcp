@@ -1,0 +1,49 @@
+{
+  "name": "@better-auth/better-auth-mcp",
+  "version": "0.0.1",
+  "description": "MCP server for Better Auth",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && chmod 755 dist/index.js",
+    "format": "prettier --write .",
+    "lint": "eslint \"**/*.{js,ts,tsx}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinfe123/better-auth-mcp.git"
+  },
+  "keywords": [
+    "modelcontextprotocol",
+    "mcp",
+    "better-auth"
+  ],
+  "author": "Kinfish",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "better-auth-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/Kinfe123/better-auth-mcp/issues"
+  },
+  "homepage": "https://github.com/Kinfe123/better-auth-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0"
+  }
+}
