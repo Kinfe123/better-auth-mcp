@@ -1,1 +1,1 @@
-Better Auth MCP Server
+## Better Auth MCP Server
